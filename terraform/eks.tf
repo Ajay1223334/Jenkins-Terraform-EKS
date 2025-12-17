@@ -36,7 +36,7 @@ module "eks" {
       desired_size = 1
 
       instance_types = ["t3.micro"]
-capacity_type  = "ON_DEMAND"
+      capacity_type  = "ON_DEMAND"
 
       tags = {
         ExtraTag = "helloworld"
